@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: #F3F3F3;
+    width: 1024px;
+    height: 678px;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+
+.Contenedor1{
+    background-color: #222222;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Logo1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.BarraSuperior{
+    position: absolute;
+    width: 284px;
+    height: 19px;
+    right: 20px;
+    top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+.Contenedor2{
+    position: relative;
+    width: 986px;
+    height: 350px;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.Seccion1{
+    position: absolute;
+    width: 490px;
+    height: 350px;
+    left: 5px;
+    top: 35px;
+    background-image: url(../img/delivery.jpg);
+    border-radius: 5px;
+}
+
+h2{
+    position: absolute;
+    color: red;
+    top: 20px;
+    left: 19.98px;
+
+}
+
+span{
+    color: white;
+}
+
+.Seccion2{
+    position: absolute;
+    width: 490px;
+    height: 350px;
+    top: 35px;
+    left: 510px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.Podio{
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    top: 26px;
+    left: 160px;
+}
+
+h3{
+    position: absolute;
+    font-weight: bold;
+    top: 112px;
+    left: 69px;
+    align-content: center;
+}
+
+
+.ImagenPizza{
+    position: absolute;
+    top: 132px;
+    right: 74px;
+}
+
+.Top5{
+    position: absolute;
+    font-weight: bold;
+    left: 51px;
+    top: 155px;
+}
+
+
+
+.Contenedor4{
+    background-color: #222222;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height: 150px;
+    top: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.BarraInferior{
+    position: absolute;
+    width: 78px;
+    height: 112px;
+    flex-direction: column;
+    top: 19px;
+    left: 20px;
+    bottom: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Logo2{
+    position: absolute;
+    right: 42px;
+    top: 35px;
+    bottom: 35px;
+}
