@@ -2,44 +2,55 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
 
-html{
+/* html{
     background: #F3F3F3;
     width: 1024px;
     height: 678px;
-}
+} */
 
 body{
     background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
 .Contenedor1{
     background-color: #222222;
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
-    width: 1024px;
+    /* width: 1024px; */
     height: 100px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Logo1{
-    position: absolute;
+    width: 234px;
+    height: 80px;
+    margin: 10px 0;
+    margin-left: 20px;
+    /* position: absolute;
     top: 10px;
-    left: 20px;
+    left: 20px; */
 }
 
 .BarraSuperior{
-    position: absolute;
     width: 284px;
-    height: 19px;
-    right: 20px;
-    top: 40px;
+    height: 19px;     
+    margin: 40px 0 41px;
+    margin-right: 20px; 
+}
+
+nav.BarraSuperior ul{
+    list-style: none; 
     display: flex;
     justify-content: space-evenly;
 }
@@ -50,27 +61,30 @@ a{
 }
 
 .Contenedor2{
-    position: relative;
-    width: 986px;
-    height: 350px;
+    /* position: relative; */
+    /* width: 986px; */
+    /* height: 350px;
     left: 10px;
     bottom: 20px;
-    display: inline-block;
+    display: inline-block; */
+    display: flex;
     justify-content: space-evenly;
+    padding: 35px 19px;
 }
 
 .Seccion1{
-    position: absolute;
+    /* position: absolute; */
     width: 490px;
     height: 350px;
-    left: 5px;
-    top: 35px;
+    padding: 20px;
+    /* left: 5px;
+    top: 35px; */
     background-image: url(../img/delivery.jpg);
     border-radius: 5px;
 }
 
 h2{
-    position: absolute;
+    /* position: absolute; */
     color: red;
     top: 20px;
     left: 19.98px;
@@ -82,73 +96,106 @@ span{
 }
 
 .Seccion2{
-    position: absolute;
+    /* position: absolute; */
+    /* top: 35px;
+    left: 510px; */
     width: 490px;
     height: 350px;
-    top: 35px;
-    left: 510px;
     background: #FFFFFF;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.containerPodio{
+    display: flex;
+    width: 385px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .Podio{
-    position: absolute;
+    /* position: absolute; */
+    margin: 26px;
     font-weight: bold;
     font-size: 24px;
-    top: 26px;
-    left: 160px;
+    /* top: 26px;
+    left: 160px; */
 }
 
 h3{
-    position: absolute;
+    /* position: absolute; */
+    /* top: 112px;
+    left: 69px; */
     font-weight: bold;
-    top: 112px;
-    left: 69px;
-    align-content: center;
+    /* align-content: center; */
+}
+
+
+.Top5{
+    /* position: absolute; */
+    margin: 20px 0;
+    margin-left: 10px;
+    font-weight: bold;
+    /* left: 51px;
+    top: 155px; */
+}
+
+ol.Top5 li{
+    padding: 5px 0;
 }
 
 
 .ImagenPizza{
-    position: absolute;
-    top: 132px;
-    right: 74px;
-}
+    width: 92px;
+    height: 129px;
+    margin: 30px 0 0 80px;
 
-.Top5{
-    position: absolute;
-    font-weight: bold;
-    left: 51px;
-    top: 155px;
 }
 
 
 
 .Contenedor4{
     background-color: #222222;
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
-    width: 1024px;
+    /* width: 1024px; */
     height: 150px;
-    top: 35px;
+    /* top: 35px; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.BarraInferior{
-    position: absolute;
+nav.BarraInferior{
+    /* position: absolute; */
     width: 78px;
     height: 112px;
-    flex-direction: column;
-    top: 19px;
+    margin: 10px 0 10px 20px;
+    /* flex-direction: column; */
+    /* top: 19px;
     left: 20px;
-    bottom: 19px;
+    bottom: 19px; */
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+nav.BarraInferior ul{
+    list-style: none;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
 .Logo2{
-    position: absolute;
-    right: 42px;
+    /* position: absolute; */
+    /* right: 42px;
     top: 35px;
-    bottom: 35px;
+    bottom: 35px; */
+    margin: 35px 0;
+    margin-right: 42px;
+    width: 212px;
+    height: 80px;
 }
